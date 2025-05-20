@@ -18,7 +18,7 @@ class Program
           Console.WriteLine(fraction1.getNumerator()); */
         
         // Create using default constructor (should be 1/1 or whatever your default is)
-Fractions f1 = new Fractions();
+Fractions f1 = new Fractions(8,7);
 Console.WriteLine("Fraction 1:");
 Console.WriteLine($"Numerator: {f1.getNumerator()}");
 Console.WriteLine($"Denominator: {f1.getDenominator()}");
